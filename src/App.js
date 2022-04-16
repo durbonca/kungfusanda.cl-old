@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <div style={{ height: '100vh' }}>
+      <div style={{ minHeight: '100vh' }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="kung-fu" element={<KungFu />} />
