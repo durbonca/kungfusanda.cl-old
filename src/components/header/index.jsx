@@ -114,7 +114,7 @@ export const Header = () => {
               </StyledButton>
             </NavLink>
           </Box>
-          <Box sx={{ flexGrow: 1, justifyContent: 'right', display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, justifyContent: 'right', display: 'flex' }}>
             <a href="https://wa.me/56951787063" target="_blank" rel="noreferrer">
               <IconButton>
                 <WhatsAppIcon />
