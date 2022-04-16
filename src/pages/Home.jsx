@@ -1,31 +1,15 @@
-import Cover from 'react-video-cover';
-import videoSrc from '../video/videoHeader.mp4';
+import { VideoCover, IntroSection } from '../components';
 
 export const Home = () => {
   return (
     <div>
-      <section>
-        <div
-          style={{
-            width: '100vw',
-            height: '90vh',
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            zIndex: -1,
-          }}
-        >
-          <Cover
-            videoOptions={{
-              src: videoSrc,
-              autoPlay: true,
-              playsInline: true,
-              muted: false,
-              loop: true,
-            }}
-          />
-        </div>
-      </section>
+      <VideoCover />
+      <div
+        style={{
+          marginTop: '85vh',
+        }}
+      />
+      <IntroSection />
     </div>
   );
 };

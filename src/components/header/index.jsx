@@ -70,9 +70,9 @@ export const Header = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              <NavLink to="/profesores" style={({ isActive }) => (isActive ? active : undefined)}>
+              <NavLink to="/maestros" style={({ isActive }) => (isActive ? active : undefined)}>
                 <MenuItem onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">Profesores</Typography>
+                  <Typography textAlign="center">Maestros</Typography>
                 </MenuItem>
               </NavLink>
               <NavLink to="/kung-fu" style={({ isActive }) => (isActive ? active : undefined)}>
@@ -93,9 +93,9 @@ export const Header = () => {
             </Menu>
           </Box>
           <Box sx={{ flexGrow: 1, justifyContent: 'right', display: { xs: 'none', md: 'flex' } }}>
-            <NavLink to="/profesores" style={({ isActive }) => (isActive ? active : undefined)}>
+            <NavLink to="/maestros" style={({ isActive }) => (isActive ? active : undefined)}>
               <StyledButton variant="text" onClick={handleCloseNavMenu} sx={{ my: 2, mx: 2, display: 'block' }}>
-                Profesores
+                Maestros
               </StyledButton>
             </NavLink>
             <NavLink to="/kung-fu" style={({ isActive }) => (isActive ? active : undefined)}>

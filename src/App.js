@@ -11,7 +11,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="kung-fu" element={<KungFu />} />
           <Route path="leon" element={<Leon />} />
-          <Route path="profesores" element={<Profesores />} />
+          <Route path="maestros" element={<Profesores />} />
           <Route path="sanda" element={<Sanda />} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
