@@ -70,6 +70,11 @@ export const Header = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
+              <NavLink to="/horarios" style={({ isActive }) => (isActive ? active : undefined)}>
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center">Horarios</Typography>
+                </MenuItem>
+              </NavLink>
               <NavLink to="/maestros" style={({ isActive }) => (isActive ? active : undefined)}>
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">Maestros</Typography>
@@ -93,6 +98,11 @@ export const Header = () => {
             </Menu>
           </Box>
           <Box sx={{ flexGrow: 1, justifyContent: 'right', display: { xs: 'none', md: 'flex' } }}>
+            <NavLink to="/horario" style={({ isActive }) => (isActive ? active : undefined)}>
+              <StyledButton variant="text" onClick={handleCloseNavMenu} sx={{ my: 2, mx: 2, display: 'block' }}>
+                Horarios
+              </StyledButton>
+            </NavLink>
             <NavLink to="/maestros" style={({ isActive }) => (isActive ? active : undefined)}>
               <StyledButton variant="text" onClick={handleCloseNavMenu} sx={{ my: 2, mx: 2, display: 'block' }}>
                 Maestros

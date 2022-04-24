@@ -9,6 +9,7 @@ export const StyledContainer = styled(Container)`
   height: 100%;
   display: flex;
   gap: 1em;
+  justify-content: center;
   align-items: center;
   @media (max-width: 768px) {
     flex-direction: column;

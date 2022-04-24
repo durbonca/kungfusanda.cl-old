@@ -9,3 +9,7 @@ a {
 a:visited{
     color: #fff;
 }
+
+.YouTube_Container{
+  height: 50vh;
+}

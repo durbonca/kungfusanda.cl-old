@@ -1,4 +1,4 @@
-import { VideoCover, IntroSection } from '../components';
+import { VideoCover, IntroSection, Youtube } from '../components';
 
 export const Home = () => {
   return (
@@ -6,10 +6,11 @@ export const Home = () => {
       <VideoCover />
       <div
         style={{
-          marginTop: '85vh',
+          marginTop: '80vh',
         }}
       />
       <IntroSection />
+      <Youtube />
     </div>
   );
 };

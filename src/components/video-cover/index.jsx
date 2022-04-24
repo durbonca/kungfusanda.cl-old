@@ -19,7 +19,7 @@ export const VideoCover = () => {
             src: videoSrc,
             autoPlay: true,
             playsInline: true,
-            muted: false,
+            muted: true,
             loop: true,
           }}
         />
