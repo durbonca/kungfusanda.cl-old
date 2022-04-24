@@ -9,9 +9,11 @@ export const StyledContainer = styled(Container)`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; ;
 `;
 
 export const Item = styled.div`
   padding: 1em;
   color: white;
+  border-top: 1px solid #333;
 `;

@@ -98,7 +98,7 @@ export const Header = () => {
             </Menu>
           </Box>
           <Box sx={{ flexGrow: 1, justifyContent: 'right', display: { xs: 'none', md: 'flex' } }}>
-            <NavLink to="/horario" style={({ isActive }) => (isActive ? active : undefined)}>
+            <NavLink to="/horarios" style={({ isActive }) => (isActive ? active : undefined)}>
               <StyledButton variant="text" onClick={handleCloseNavMenu} sx={{ my: 2, mx: 2, display: 'block' }}>
                 Horarios
               </StyledButton>
