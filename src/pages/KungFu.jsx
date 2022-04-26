@@ -41,17 +41,14 @@ export const KungFu = () => {
           </div>
         </div>
       </section>
-
       <section className="container mt-5 pb-5">
         <div className="pics mt-5">
           <div className="item level-3">
             <img src={kungfu1img} alt="kung-fu imagen" />
           </div>
-
           <div className="item level-3">
             <img src={kungfu3img} alt="kung-fu imagen" />
           </div>
-
           <div className="item level-3">
             <img src={kungfu7img} alt="kung-fu imagen" />
           </div>

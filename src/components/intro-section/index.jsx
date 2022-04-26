@@ -13,8 +13,8 @@ export const IntroSection = () => {
         <TypographyBox>
           <Typography>
             <span>
-              Bienvenido a nuestra escuela `&quot;`GUANGONG`&quot;`, un espacio de grato ambiente para entrenar y sacar
-              lo mejor de ti mediante nuestras disciplinas:
+              Bienvenido a nuestra escuela &quot;GUANGONG&quot;, un espacio de grato ambiente para entrenar y sacar lo
+              mejor de ti mediante nuestras disciplinas:
               <br />
               <br />
               <ul>
