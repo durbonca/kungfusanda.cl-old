@@ -11,7 +11,7 @@ export const Footer = () => {
   return (
     <StyledContainer>
       <Item>
-        <Box sx={{ flexGrow: 1, justifyContent: 'right', display: { xs: 'none', md: 'flex' } }}>
+        <Box sx={{ flexGrow: 1, justifyContent: 'right', display: { md: 'flex' } }}>
           <a href="https://wa.me/56951787063" target="_blank" rel="noreferrer">
             <IconButton>
               <WhatsAppIcon />
@@ -29,7 +29,7 @@ export const Footer = () => {
           </a>
         </Box>
       </Item>
-      <Item>
+      <Item className="text-center">
         Kung Fu La Florida © {year} - Made by{' '}
         <a href="https://durbonca.com" target="_blank" rel="noreferrer">
           @durbonca
