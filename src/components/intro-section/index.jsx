@@ -20,7 +20,6 @@ export const IntroSection = () => {
               <ul>
                 <li> kung fu estilo choy lee fut</li>
                 <li> Sanda (deporte de contacto) </li>
-                <li> Taiji chen</li>
                 <li> Acondicionamiento físico </li>
               </ul>
               A través de clases grupales y particulares (plan de personal trainer) para niños, jóvenes y adultos

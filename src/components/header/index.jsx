@@ -75,11 +75,6 @@ export const Header = () => {
                   <Typography textAlign="center">Horarios</Typography>
                 </MenuItem>
               </NavLink>
-              <NavLink to="/maestros" style={({ isActive }) => (isActive ? active : undefined)}>
-                <MenuItem onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">Maestros</Typography>
-                </MenuItem>
-              </NavLink>
               <NavLink to="/kung-fu" style={({ isActive }) => (isActive ? active : undefined)}>
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">Kung fu 武术蔡李佛</Typography>
@@ -101,11 +96,6 @@ export const Header = () => {
             <NavLink to="/horarios" style={({ isActive }) => (isActive ? active : undefined)}>
               <StyledButton variant="text" onClick={handleCloseNavMenu} sx={{ my: 2, mx: 2, display: 'block' }}>
                 Horarios
-              </StyledButton>
-            </NavLink>
-            <NavLink to="/maestros" style={({ isActive }) => (isActive ? active : undefined)}>
-              <StyledButton variant="text" onClick={handleCloseNavMenu} sx={{ my: 2, mx: 2, display: 'block' }}>
-                Maestros
               </StyledButton>
             </NavLink>
             <NavLink to="/kung-fu" style={({ isActive }) => (isActive ? active : undefined)}>
