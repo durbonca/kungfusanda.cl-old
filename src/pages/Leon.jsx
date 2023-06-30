@@ -20,29 +20,10 @@ export const Leon = () => {
         <div className="row pt-5 text-focus-in">
           <div className="col-12 offset-md-1 col-md-10">
             <h5 className="text-justify text-white">
-              El León es un símbolo icónico muy importante para una escuela de Kung Fu puesto que representa el espíritu
-              y energía de esa escuela. Solo una escuela de Kung Fu podrá hacer la danza del león ya que requiere
-              postura de caballo y complicados trabajos de pies. Tradicionalmente, un león sureño se basará en uno de
-              los tres personajes principales del libro chino “El Romance de Los Tres Reinos”. Estos Héroes son:
+              La danza del león, es una forma de danza tradicional en la cultura china y otros países asiáticos, en los que los artistas imitan los movimientos de un león, disfrazados de la representación de este animal, para traer buena suerte y fortuna.
             </h5>
-
-            <h5 className="text-justify text-white">
-              <ul>
-                <li>Kwang Gung- León Rojo</li>
-                <li>Zhang Fei- León Negro</li>
-                <li>Liu Bei- León Dorado</li>
-              </ul>
-            </h5>
-
             <h5 className="text-justify text-white pt-3">
-              Cada león expresa la personalidad de la figura que representa. El león Kwan Gung es representa con la
-              cabeza mantenida en alto, ya que Kwan Gung fue una persona muy justa y honorable. El león Zhang Fei
-              representa a una persona de naturalidad más joven: es usualmente considerado como un león de pelea. El
-              león Liu Bei es considerado más viejo y sabio o más maduro. Este león es más precavido, tomándose su
-              tiempo de explorar las cosas en vez de abalanzarse sobre ellas. El objetivo principal de la danza del león
-              era espantar los malos espíritus. Era también usada para bendecir nuevos hogares o eventos felices (león
-              dorado) apertura de restoranes (león negro) y traerles buena fortuna, matrimonios (león rojo) y funerales
-              (león blanco).
+              La danza del león se realiza generalmente durante el Año Nuevo chino y otros festivales chinos tradicionales y culturales. También se puede realizar en ocasiones importantes como eventos de apertura de negocios, celebraciones especiales o ceremonias de bodas, bautizos, cumpleaños, matrimonios, festividades o para honrar a invitados especiales de las comunidades chinas.
             </h5>
           </div>
         </div>
